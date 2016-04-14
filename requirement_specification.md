@@ -36,19 +36,23 @@ Tavoitteena em. tehtävän annolla on kerätä yhteen IOT-ratkaisuista kiinnostu
 
 ### Lyhyt tuote/palvelukuvaus/asiakastarina
 
-City IOT-palvelu on lyhyesti IOT järjestelmä, jonka avulla kerätään kuvitteellisen kaupunginosan viemärijärjestelmästä erilaista mittaustietoa.
-Esimerkkeinä virtausmääriä, vedenkorkeutta ja erilaisia hälytyksiä. Mittaus kohde on valittu mielivaltaisesti ja sen tehtävä on enemmänkin johdattaa opiskelijat tutustumaan IOT-ongelmakenttään.
+City IOT-palvelu on lyhyesti referenssitoteutus IOT-järjestelmästä, jonka avulla voidaan kerätä erilaista mittaustietoa kuvitteellisen kaupungin alueelta. Lähtökohtaisesti on tavoite kerätä mittaustietoa liittyen viemärijärjestelmään.
+
+Esimerkkeinä mitattavista parametereistä ovat virtausmäärä, vedenkorkeus ja eri hälytystasot. Palvelun toimiala on valittu mielivaltaisesti tilaajan omassa päässä, mutta pitäen mielessä todelliset ongelmat. Tehtäväannon on tarkoitus johdattaa opiskelijat tutustumaan IOT-ongelmakenttään kokonaisuutena, eikä pelkästään yksittäiseen osa-alueeseen. 
+
 
 Palvelun toteuttaminen perustuu muutamien jo olemassa olevien ohjelmistojen yhteensovittamiseen. 
-Karkea tavoite on luoda mittausjärjestelmä, joka kerää mittaustietoa kuvitteellisesta kaupunginosasta ja siirtää kerätyn tiedon tietokantaan. Kerättyä tietoa pyritään visualisoimaan ja esittämään tilannehuoneen muodossa.
 
-Toteutettavan City IOT-palvelukehikon (Proof Of Concept) avulla voidaan seurata kuvitteellisen kaupungin viemäriverkkoa, mutta tavoite on kyetä tarvittaessa skaalautua koko maata kattavavaan seurantaan.
 
+Karkea tavoite on luoda referenssitoteutus IOT-mittausjärjestelmästä, joka avulla voidaan kerätä mittaustietoa kuvitteellisesta kaupunginosasta ja siirtää kerätyn tiedon tietokantaan. Kerättyä tietoa pyritään visualisoimaan ja esittämään tilannehuoneen muodossa. 
+
+Toteutettavan City IOT-mittauspalvelulla (Proof Of Concept) voidaan seurata yksittäisen kaupungin viemäriverkkoa, mutta tavoite on kyetä tarvittaessa skaalautua koko maata kattavavaan seurantaan.
 
 
 ### Tilaaja
 
-Tilaajana toimii, Marko "NarsuMan" Rintamäki ja 
+Tilaajana ko. referenssi palvelulle toimivat N4S- ja Cyber Trust-tutkimusohjelmien yhteistyön innoittamana 
+JAMKilla Marko "NarsuMan" Rintamäki 
 
   * Kuka on tilaaja, yhteistiedot ?
   
@@ -90,23 +94,23 @@ Aikataulu on suuntaa antava ja tulee muuttumaan ajan kuluesa
 
 Sidosryhmät (esimerkkejä)
 
-* [Linkki sidosryhmän omaan sivuun]()
-* Mungo consulting Oy, Palvelun tarjoaja
-* RahoittajaA, yrityksen osakas, Bankoman Oy, osakkeen omistaja 55 %
-* RahoittajaB, Yrityksen osakas, Mauri Bosse, omistaa 5 %
-* TuotantotiimiA, em. yrityksen työntekijät, Kalle, Kille, Pelle ja Pöppö
-* SuurAsiakasA, NordMan Oy, yritysasiakas
-* SuurAsiakasB, Bill Cates Ikkunatehdas, yritysasiakas
-* Bad Man, kiusantekijä
-* Snake Consulting Oy, kilpailija
+* JAMK ohjelmisto-, verkko-, media- ja kybertekniikan osastot 
+* Digia 
+* Digile N4S-tutkimusohjelma
+* Digile Cyber Trust-tutkimusohjelma
+* Tekes
+* Challenge Factory 2016-ryhmä 
+
+* Muut alan yritykset
 
 Tunnistetut asiakasprofiilit 
 
 ## Asiakasprofiilit (Customer Profiles)
 
-Esimerkkejä! korvatkaa
+Tässä muutama asiakas, joiden elämää seurataan kaupungin
 
-  * Asiakas 1, Mauno Mainio, 67, eläkeläinen, Vierumäki, kotosin Pohjois-Savosta (Matematiikan opettaja)
+
+  * Asiakas 1, Mauno Mainio, 67, eläkeläinen, , kotosin Pohjois-Savosta (Matematiikan opettaja)
   * Asiakas 2, Riku Rikas, 30, IT Yrittäjä, asuinpaikka tuntematon, kotoisin nomands land 
   * Asiakas 3, Siiri Koikkalainen 99, suurmummo, Hankasalmi, (Sokea)
   * Asiakas 4, John Rambu, 55, tuntematon, Helsinki, (Bad Man)
