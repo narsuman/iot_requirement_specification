@@ -100,22 +100,24 @@ Sidosryhmät (esimerkkejä)
 * Digile Cyber Trust-tutkimusohjelma
 * Tekes
 * Challenge Factory 2016-ryhmä 
-
 * Muut alan yritykset
 
-Tunnistetut asiakasprofiilit 
+## Persoonat (Personanas)
 
-## Asiakasprofiilit (Customer Profiles)
-
-Tässä muutama asiakas, joiden elämää seurataan kaupungin
+Tunnistetut asiakasprofiilit, joiden avulla palvelua kehitetään.  
 
 
-  * Asiakas 1, Mauno Mainio, 67, eläkeläinen, , kotosin Pohjois-Savosta (Matematiikan opettaja)
-  * Asiakas 2, Riku Rikas, 30, IT Yrittäjä, asuinpaikka tuntematon, kotoisin nomands land 
-  * Asiakas 3, Siiri Koikkalainen 99, suurmummo, Hankasalmi, (Sokea)
-  * Asiakas 4, John Rambu, 55, tuntematon, Helsinki, (Bad Man)
-
-Voi olla toisaalta järkevää luoda oma sivu jokaiselle asiakasprofiileille..
+  * [Asiakas 1](), Mauno Mainio, 67, eläkeläinen, , kotosin Pohjois-Savosta (Matematiikan opettaja)
+  * [Asiakas 2](), Riku Rikas, 30, IT Yrittäjä, asuinpaikka tuntematon, kotoisin nomands land 
+  * [Asiakas 3](), Siiri Koikkalainen 99, suurmummo, Hankasalmi, (Sokea)
+  * [Asiakas 4](), John Rambu, 55, tuntematon, Helsinki, (Bad Man)
+  * [Asentaja 1](), Mauno Teräs, 29, Helsinki (Serviceman)
+  * [Asentaja 2](), Mauno Teräs, 29, Helsinki (Serviceman)
+  * [Ylläpito 1](), Jamppa Jauhola, 35, Helsinki ()
+  * [Ylläpito 2](), Jaana Simola, 31, Joensuu ()
+  * [Verkkoasiantuntija 1](), Kalle Kajaus, 26 ()
+  * 
+  
 
   * [Linkki asiakasprofiiliin 1](https://github.com/JAMK-IT/TT0S0100-software-desing-and-testing/blob/master/asiakasprofiilien_esimerkit.md)
   * [Linkki asiakasprofiiliin 2](https://github.com/JAMK-IT/TT0S0100-software-desing-and-testing/blob/master/asiakasprofiilien_esimerkit.md)
@@ -132,32 +134,30 @@ Voi olla toisaalta järkevää luoda oma sivu jokaiselle asiakasprofiileille..
 
 Käydään läpi asiakaspolku, jossa käytetään nimettyjä sidosryhmien edustajia
 
-  *  [Mikä ihmeen palvelupolku](https://www.google.fi/search?q=palvelupolku&espv=2&biw=1626&bih=843&site=webhp&tbm=isch&tbo=u&source=univ&sa=X&ved=0ahUKEwjU3Kn22pnKAhWDWywKHWrDB-wQsAQIHA)
+  *  Kuva seurantapalvelun toiminnasta
 
 
 ## Palvelun osa-aluejako (Service Domain areas)
 
 Millaisiin osa-alueiseiin voidaan ohjelmisto/palvelu voidaan jakaa.
 
-Onko olemassa erilaisia tuoteversioita eri ympäristöihin, mitä?
-
-  * Työpöytäversio ?
-  * Mobiiliversio ?
-  * Kenttäversio  
-
-ohjelmiston osa-alueita/lohkoja?
-
-  * Hallintapaneeli ?
-  * Tietokanta-palvelut ?
-  * Käyttöliittymät ?
-  * Autentikointi ?
-  * Laskutus ?
+* Tietokanta
+* Visualisointi
+* Luenta
+* SDN-luentaverkko
+* Mittalaite
+* Luentapalvelu
+* Asentaja-applikaatio
+* Valtuutuskanta
+* Ajoympäristö
+* Orkestrointi
 
 ## Tärkeimmät asiakaspolut (Customer Journey Maps) valituiden asiakasprofiilien näkökulmasta
 
+
   * Tarkennetaan kuvausta tehtävän mukaisesti ?
 
-### Asiakaspolku käytöönotto [asiakasprofiili_1] näkökulmasta
+### Asiakaspolku mittarin asennus [asentaja_1] näkökulmasta
 
 * lorem ipsum
 * Blue Print-kuva ?
