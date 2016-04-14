@@ -6,58 +6,78 @@ tv:NarsuMan
 
 
 
-## XXXXXX-palvelun/ohjelmiston vaatimusmäärittely
+## IOT CITY-palvelun vaatimusmäärittely
 
-Dokumentin versionumero X.Y
+Dokumentin versionumero 0.1
 
 ### Materiaalin luokittelu
 
-Salattu/Julkinen
+Julkinen
 
 ### Oikeudet
 
-Kuka omistaa dokumentin?
-
+Marko "NarsuMan" Rintamäki
 
 
 ## Sisältö
 
-Sisällysluettelo ?
+Sisällysluettelo 
+
+* Johdatus
 
 
 ## Johdatus
 
-  * Mikä on tämän dokumentin tehtävä? 
-  * Mihin se liittyy ? 
-  * Tärkeätä tietää
-  * Oleellista lukijalle ?
+Tämän vaatimusmäärittelydokumentti sisältää tarvittavia tietoja IOT-haasteen toteuttamiseen.    
+IOT-haaste (City IOT) on JAMKin Challenge Factory 2016-tiimille annettu tehtävä, joka ratkaistaan kesän aikana.
+Voit lukea lisää Challenge Factorystä [täältä](jamk-it.github.io/challenge_factory).
+
+Tavoitteena em. tehtävän annolla on kerätä yhteen IOT-ratkaisuista kiinnostuneet yhteisöt ja opiskelijat. Yhdessä rakentaen ja ongelmia ratkoen opimme mitä kuuluu IOT-palvelujen maailmaan. 
 
 ### Lyhyt tuote/palvelukuvaus/asiakastarina
 
-  * Mitä määritetyltä palvelulta odotetaan? lyhyesti
-  * Asiakastarina
+City IOT-palvelu on lyhyesti IOT järjestelmä, jonka avulla kerätään kuvitteellisen kaupunginosan viemärijärjestelmästä erilaista mittaustietoa.
+Esimerkkeinä virtausmääriä, vedenkorkeutta ja erilaisia hälytyksiä. Mittaus kohde on valittu mielivaltaisesti ja sen tehtävä on enemmänkin johdattaa opiskelijat tutustumaan IOT-ongelmakenttään.
+
+Palvelun toteuttaminen perustuu muutamien jo olemassa olevien ohjelmistojen yhteensovittamiseen. 
+Karkea tavoite on luoda mittausjärjestelmä, joka kerää mittaustietoa kuvitteellisesta kaupunginosasta ja siirtää kerätyn tiedon tietokantaan. Kerättyä tietoa pyritään visualisoimaan ja esittämään tilannehuoneen muodossa.
+
+Toteutettavan City IOT-palvelukehikon (Proof Of Concept) avulla voidaan seurata kuvitteellisen kaupungin viemäriverkkoa, mutta tavoite on kyetä tarvittaessa skaalautua koko maata kattavavaan seurantaan.
+
+
 
 ### Tilaaja
 
+Tilaajana toimii, Marko "NarsuMan" Rintamäki ja 
+
   * Kuka on tilaaja, yhteistiedot ?
+  
+  
   * Jos tiedot on projektisuunnitelmassa, niin linkit tänne!
 
 ### Toimittaja
 
+JAMK Challenge Factory 2016
+Piippukatu 2, 40100 Jyväskylä
+  
   * Kuka on toimittaja, yhteistiedot ?
   * Jos tiedot on projektisuunnitelmassa, niin linkit tänne!
 
 ### Aikataulu
 
+Aikataulu on suuntaa antava ja tulee muuttumaan ajan kuluesa
+
   * Mitä alustavasti tullaan tekemään ja milloin ?
-  * Kannattaa viedä osaksi projektisuunnitelmaa ?
+ 
+
+
 
 | Etappi | Alkaa | Loppuu | | | 
 |:-----:|:-----:|:-----:|:-----:|:-----:|
-| Profiiliasiakastapaamiset | 1.2.2017 | 12.2.2017 |  | P3 |
-| Sidosryhmä tapaaminen | 13.2.2017 | |  | P4 |
-| Esi-katselmointi | 25.2.2017 | |  | P1 |
-| Vaatimusmäärittely luovutetaan | 28.2.2017 | 12.2.2017 |  | P1 |
+| Challenge Factory ylösajo | 16.5.2016 | 17.5.2016 |  | P1 |
+| Perehtyminen ongelmaan ja sidosryhmätapaaminen | 18.5.2017 | |  | P1 |
+| Osa-alueisiin perehtyminen | 23.5.2017 |  |  | P1 |
+|  28.2.2017 | 12.2.2017 |  | P1 |
 
 ## Palvelun/ohjelmiston tunnistetut sidosryhmät ja asiakkaat (Stakeholders and customers) 
 
