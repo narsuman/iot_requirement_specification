@@ -116,12 +116,8 @@ Tunnistetut asiakasprofiilit, joiden avulla palvelua kehitetään.
   * [Ylläpito 1](), Jamppa Jauhola, 35, Helsinki ()
   * [Ylläpito 2](), Jaana Simola, 31, Joensuu ()
   * [Verkkoasiantuntija 1](), Kalle Kajaus, 26 ()
-  * 
+  * [ 
   
-
-  * [Linkki asiakasprofiiliin 1](https://github.com/JAMK-IT/TT0S0100-software-desing-and-testing/blob/master/asiakasprofiilien_esimerkit.md)
-  * [Linkki asiakasprofiiliin 2](https://github.com/JAMK-IT/TT0S0100-software-desing-and-testing/blob/master/asiakasprofiilien_esimerkit.md)
-  * [Linkki asiakasprofiiliin 3](https://github.com/JAMK-IT/TT0S0100-software-desing-and-testing/blob/master/asiakasprofiilien_esimerkit.md)
 
 
 ## Sidosryhmäkartta (Stakeholder map)
@@ -154,8 +150,16 @@ Millaisiin osa-alueiseiin voidaan ohjelmisto/palvelu voidaan jakaa.
 
 ## Tärkeimmät asiakaspolut (Customer Journey Maps) valituiden asiakasprofiilien näkökulmasta
 
+* Tarkennetaan kuvausta tehtävän mukaisesti ?
 
-  * Tarkennetaan kuvausta tehtävän mukaisesti ?
+* Mittarin asentaminen
+* Mittariluennan valtuuttaminen
+* Mittaustiedon kerääminen
+* Mittaustiedon analysointi
+* Mittaustiedon visualisointi
+* Mittarin ohjelmistopäivitys
+* Ison mittauksen tekeminen
+
 
 ### Asiakaspolku mittarin asennus [asentaja_1] näkökulmasta
 
@@ -163,7 +167,7 @@ Millaisiin osa-alueiseiin voidaan ohjelmisto/palvelu voidaan jakaa.
 * Blue Print-kuva ?
 
 
-### Asiakaspolku tuotteen takuukorjaus [asiakasprofiili_2] näkökulmasta
+### Mittaustiedon kerääminen [asiakas_1] näkökulmasta
 
 * lorem ipsum
 * Blue Print-kuva ?
@@ -176,18 +180,16 @@ Millaisiin osa-alueiseiin voidaan ohjelmisto/palvelu voidaan jakaa.
 
 ## Tärkeimmät piirteet/ominaisuudet (Features)
 
-  * Kirjataan tärkeimmät ominaisuudet
-  * Mitä ovat oleelliset ominaiduudet ?
-  * [Tsekkaa MVP - Minimum Viable Product Features](https://en.wikipedia.org/wiki/Minimum_viable_product)
 
-### Ominaisuus 1
+* Mittariohjelmisto
+* Mittausohjelmiston jakelupalvelu
+* Luentajärjestelmä
+* SDN-verkko
+* Mittalaitteen hyväksyntä luentaan
 
-  * [Linkki ominaisuuskuvaukseen](https://github.com/JAMK-IT/TT0S0100-software-desing-and-testing/blob/master/ominaisuuskuvaus.md)
 
-  * Kuvaus
-  * Ominaisuuteen liittyvät vaatimukset ?
-  * UI-Näkymä ?
-  * Testauksessa huomioitavaa
+* [Tsekkaa MVP - Minimum Viable Product Features](https://en.wikipedia.org/wiki/Minimum_viable_product)
+
 
 ### Ominaisuus 2
 
@@ -222,15 +224,15 @@ Millaisiin osa-alueiseiin voidaan ohjelmisto/palvelu voidaan jakaa.
 
 ### Käyttötapaus 1
 
-   * [Rekisteröityminen](https://github.com/JAMK-IT/TT0S0100-software-desing-and-testing/blob/master/kayttotapauskuvauksen-pohja.md)
+   * [Asentaminen](https://github.com/JAMK-IT/TT0S0100-software-desing-and-testing/blob/master/kayttotapauskuvauksen-pohja.md)
 
 ### Käyttötapaus 2
 
-   * [Salasanan vaihto](https://github.com/JAMK-IT/TT0S0100-software-desing-and-testing/blob/master/kayttotapauskuvauksen-pohja.md)
+   * [Ohjelmiston päivitys mittarissa](https://github.com/JAMK-IT/TT0S0100-software-desing-and-testing/blob/master/kayttotapauskuvauksen-pohja.md)
 
 ### Käyttötapaus 3
 
-   * [Esimerkki4](https://github.com/JAMK-IT/TT0S0100-software-desing-and-testing/blob/master/kayttotapauskuvauksen-pohja.md)
+   * [Mittaustiedon luenta](https://github.com/JAMK-IT/TT0S0100-software-desing-and-testing/blob/master/kayttotapauskuvauksen-pohja.md)
 
 ### Käyttötapaus 4
 
@@ -241,10 +243,10 @@ Millaisiin osa-alueiseiin voidaan ohjelmisto/palvelu voidaan jakaa.
    * Tunnistetaan ohjelmistoon/palveluun liittyviä riskejä..
    * [Riskienhallinta](https://fi.wikipedia.org/wiki/Riskienhallinta)
 
-| Vaatimus ID | Kuvaus | Tyyppi | Osa-alue | Vastuullinen | Prioriteetti | 
+| Riski ID | Kuvaus | Tyyppi | Osa-alue | Vastuullinen | Prioriteetti | 
 |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-|RISK001| Käyttäjämäärän äkillinen lisääntyminen, esim poikkeustilanteen aikana | - | P1 |
-|RISK002| Palvelun käytettävyys heikkenee kovan kuormituksen aikana | Toiminnnallinen |  | P5 |
+|RISK001| Teknologiat eivät toimi | - | P1 |
+|RISK002|  | Toiminnnallinen |  | P5 |
 |RISK003| Heikon verkkoyhteyden vaikutus palvelun käyttöön | Toiminnnallinen | - | P3 |
 
   * Miten taulukoita luetaan: P1 = Erittäin tärkeä, P3 = Oleellinen, P5 = Triviaali
