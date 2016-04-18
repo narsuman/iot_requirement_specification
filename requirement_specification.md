@@ -135,6 +135,10 @@ Käydään läpi asiakaspolku, jossa käytetään nimettyjä sidosryhmien edusta
 
 ## Palvelun osa-aluejako (Service Domain areas)
 
+![](https://github.com/narsuman/iot_requirement_specification/raw/master/Challenge%20Factory%202016.png)
+
+
+
 Millaisiin osa-alueiseiin voidaan ohjelmisto/palvelu voidaan jakaa.
 
 * Tietokanta
